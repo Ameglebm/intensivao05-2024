@@ -1,0 +1,46 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: url('../img/fundo-base.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cabecalho h1 {
+
+    color: #f1ecff; /* cores hexadecimais */
+    font-size: 45 px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.personagens-slider {
+
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.listas-personagens {
+
+    background-color: orange;
+    width: 330px;
+    height: 520;
+}
+
+.bnt-seta {
+
+    background-color: #ffffff;
+    width: 70;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+}

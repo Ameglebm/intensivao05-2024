@@ -1,0 +1,10 @@
+/*Seletores, tira os estilos de varias coisas ao mesmo tempo*/
+* {
+    margin: 0; /*é o espaçamento entre os todos os elemetos, entre elementos */
+    padding: 0; /* define uma distancia entre o conteudo e um elemento e suas bordas */
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
